@@ -111,11 +111,11 @@ margin-right: auto;}
 
 .communication {
     display: flex;
-    padding-top: 32px;
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+    
 }
 
 
@@ -132,17 +132,13 @@ fill: currentColor;
     margin-left: 50px;
 }
 
-.icon-tel-nav :hover{ fill: var(--focus-text-color); }
-
-.icon-tel-nav :focus { fill: var(--focus-text-color);}
-
 .communication-mail,
 .communication-tel { display: flex;
-    
+    align-items: center;
     padding: 4px 4px;
-    color: var(--advantage-text-color)
+    color: var(--advantage-text-color);
+    padding-top: 32px;
 }
-
 
 
 .communication-mail:hover,
@@ -152,7 +148,7 @@ fill: currentColor;
 
  .communication-tel:hover,
  .communication-tel:focus{  color: var(--focus-text-color); }
- .icon-mail-nav{ }
+ 
 
 
 /* main */
