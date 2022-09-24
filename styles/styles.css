@@ -60,7 +60,8 @@ address {
     color: var(--logo-text-color)
 }
 
-.logo-header {
+.logo-header {padding-top: 25px;
+    padding-bottom: 25px;
     margin-right: 95px;
 }
 .header{border-bottom: 1px solid #ECECEC;
@@ -70,11 +71,12 @@ margin-right: auto;}
 
 .conteiner-header { 
     height: 80px;
-    align-items: center;
+   
     display: flex;
 }
 
-.nav-list {
+.nav-list {padding-top: 32px;
+    padding-bottom: 32px;
     padding-inline-start: 0px;
     display: flex;
 }
@@ -109,7 +111,7 @@ margin-right: auto;}
 
 .communication {
     display: flex;
-    align-items: center;
+    padding-top: 32px;
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
@@ -136,7 +138,7 @@ fill: currentColor;
 
 .communication-mail,
 .communication-tel { display: flex;
-    align-items: center;
+    
     padding: 4px 4px;
     color: var(--advantage-text-color)
 }
